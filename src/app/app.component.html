@@ -1,17 +1,24 @@
-<app-header></app-header>
+<div class="container-fluid" style="background-color: #060817;height: 100%;">
 
-<div class="container-fluid" style="background-color: #060817;">
-
-  <div class="row">
-
-    <div class="col-md-2" style=" height: 100vh; background-color: #060817; border-right: 1px solid rgb(58, 57, 57);">
+  <div class="row">  
+      
+    <div class="col-md-2">
       <app-sidenav></app-sidenav>
     </div>
 
     <div class="col-md-10">
-
+      <div class="row">
+        <div class="col-12 m-0 p-0">
+          <app-header></app-header>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <app-dashboard></app-dashboard>
+        </div>
+      </div>
     </div>
-    
+
   </div>
 
 </div>
