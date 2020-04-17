@@ -1,0 +1,28 @@
+a{
+    color: rgb(99, 104, 139);
+    transition: all 0.8s;
+}
+
+a:hover{
+    color: white;
+}
+
+ul{
+    width: 100%;
+}
+
+.nav-menu-item{
+    transition: all 0.8s;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.nav-menu-item:hover{
+    background-color: #3B3F5C !important;
+    color: white;
+}
+
+i{
+    /* font-size: 18px; */
+    padding: 0 0 0 15px;
+}
